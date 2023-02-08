@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="css/bootstrap-icons.css" rel="stylesheet" media="screen">
+        <link href="css/styles.css" rel="stylesheet" media="screen">
+        <title>Inflame Technology</title>
+    </head>
+
+    <body>
+        <header>
+            <nav id="navbar-top" class="navbar navbar-expand-lg nav-img">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img class="rounded-4" src="images/favicon.png" alt="Logo" width="40" height="40">
+                    </a>
+                    <button class="navbar-toggler border-light text-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="bi bi-list"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-header">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="link-header" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-header" href="#about-us">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-header" href="#customers">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="link-header" href="#contact-us">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="p-5 text-light">
+                <div class="text-center mb-3 col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                    <h1 class="mb-3 fw-semibold">
+                        Improving security and performance of your
+                        <span class="highlight-text">smart contracts</span>.
+                    </h1>
+                    <div class="d-grid gap-2 col-sm-6 col-md-8 col-lg-10 col-xl-8 col-xxl-6 mx-auto">
+                        <button class="btn btn-lg btn-contact border-2 rounded-pill" type="button" onclick="redirect()">Request an audit</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div data-bs-spy="scroll" data-bs-target="#navbar-top">
+            <div id="services" class="container-fluid p-5">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2 class="fw-bold">Our services</h2>
+                        <h4>We offer custom services accordingly with your needs.</h4>
+                    </div>
+                </div>
+                <div class="row g-sm-2 g-5 g-xxl-5 justify-content-center">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                        <div class="card card-services">
+                            <div class="card-header card-services-header fs-2">
+                                <i class="bi bi-shield-check"></i>
+                            </div>
+                            <div class="card-body card-services-body">
+                                <h5 class="card-title fw-bold">Security audit</h5>
+                                <p class="card-text text-light">
+                                    We provide manual and automated analysis in search of the
+                                    most current vulnerabilities involving smart contracts.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3">
+                        <div class="card card-services">
+                            <div class="card-header card-services-header fs-2">
+                                <i class="bi bi-layers"></i>
+                            </div>
+                            <div class="card-body card-services-body">
+                                <h5 class="card-title fw-bold">Blockchain integration</h5>
+                                <p class="card-text text-light">
+                                    We can develop and integrate different applications with the
+                                    blockchain network using Web3 and others technologies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="about-us" class="container-fluid p-5 text-light">
+                <div class="row g-sm-2 g-5 g-xxl-5 justify-content-center">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-4">
+                        <div class="text-center">
+                            <h2 class="fw-bold">About us</h2>
+                        </div>
+                        <div class="fs-1">
+                            <i class="bi bi-quote"></i>
+                        </div>
+                        <div class="fs-5 text-justify">
+                            Inflame Technology is a company founded in 2022 in Brazil by a team of researchers that offers
+                            customized blockchain services. With the advent of Blockchain technology, our team saw the
+                            market need for specialized services with transparency and quality. Because of that, our mission
+                            is to provide the best services for developing blockchain decentralized applications
+                            (<span class="fst-italic">dApps</span>) and smart contracts audits in search of the main
+                            security vulnerabilities and coding best practices.
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-4">
+                        <div id="partners-carousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="p-3">
+                                        <div class="card p-3 bg-transparent card-about-us text-center">
+                                            <img src="images/josue.jpg" class="rounded-circle" alt="Josue" width="100" height="100">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Josué Nunes Campos</h5>
+                                                <p class="fs-6 fst-italic">Managing Partner and Co-Founder</p>
+                                                <hr class="highlight-text">
+                                                <p class="card-text text-justify">
+                                                    Master's student and Bachelor's degree in Computer Science from Universidade Federal de Viçosa, Josué
+                                                    has experience in smart contracts and backend development. He works on smart contracts static and
+                                                    dynamic analysis tools and blockchain decentralized applications (dApps) integrations to improve
+                                                    our customers systems performance and security.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://www.linkedin.com/in/josuecamposs/" class="icon-linkedin fs-4">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-3">
+                                        <div class="card p-3 bg-transparent card-about-us text-center">
+                                            <img src="images/ronan.jpg" class="rounded-circle" alt="Ronan" width="100" height="100">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Ronan Dutra Mendonça</h5>
+                                                <p class="fs-6 fst-italic">Co-Founder</p>
+                                                <hr class="highlight-text">
+                                                <p class="card-text text-justify">
+                                                    Currently pursuing a Ph.D. in the Informatic Department, at Universidade Federal de Viçosa, Brazil. Received a M.Sc
+                                                    degree in electrical engineering from the Universidade Federal de Minas Gerais, in 2016. He has been a computer science
+                                                    professor at the Universidade Federal de Viçosa, Brazil, since 2013. His current research interests span Decentralized
+                                                    applications, Blockchain, Smart Contracts, and security vulnerabilities.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://www.linkedin.com/in/ronan-mendon%C3%A7a-10a00349/" class="icon-linkedin fs-4">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-3">
+                                        <div class="card p-3 bg-transparent card-about-us text-center">
+                                            <img src="images/alex.jpg" class="rounded-circle" alt="Alex" width="100" height="100">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Alex Borges Vieira</h5>
+                                                <p class="fs-6 fst-italic">Co-Founder</p>
+                                                <hr class="highlight-text">
+                                                <p class="card-text text-justify">
+                                                    Vieira has a PHD degree in Computer Science from Universidade Federal de Minas Gerais. Vieira has experience in smart
+                                                    contracts and blockchain research, including the analysis and modeling of users profiles using machine learning
+                                                    techniques and malicious behavior detection on Ethereum. Vieira has also experience in detecting and fighting attacks in
+                                                    blockchains networks.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://www.linkedin.com/in/alex-vieira-221842100/" class="icon-linkedin fs-4">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-3">
+                                        <div class="card p-3 bg-transparent card-about-us text-center">
+                                            <img src="images/nacif.jpg" class="rounded-circle" alt="Nacif" width="100" height="100">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">José Augusto M. Nacif</h5>
+                                                <p class="fs-6 fst-italic">Co-Founder</p>
+                                                <hr class="highlight-text">
+                                                <p class="card-text text-justify">
+                                                    Computer Science Associate Professor at Universidade Federal de Viçosa since 2011. Prof. Nacif has several works in the
+                                                    research fields of hardware/software validation, Internet of things security, and smart contracts.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://www.linkedin.com/in/jose-augusto-nacif-b283738/" class="icon-linkedin fs-4">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="p-3">
+                                        <div class="card p-3 bg-transparent card-about-us text-center">
+                                            <img src="images/glauber.jpg" class="rounded-circle" alt="Glauber" width="100" height="100">
+                                            <div class="card-body">
+                                                <h5 class="card-title fw-bold">Glauber Dias Gonçalves</h5>
+                                                <p class="fs-6 fst-italic">Co-Founder</p>
+                                                <hr class="highlight-text">
+                                                <p class="card-text text-justify">
+                                                    Gonçalves has a PHD degree in Computer Science from Universidade Federal de Minas Geras. He has been a Computer Science
+                                                    Associate Professor at Universidade Federal do Piauí since 2017 and has worked in the research fields of performance
+                                                    evaluation, distributed systems and blockchain.
+                                                </p>
+                                            </div>
+                                            <div class="card-footer">
+                                                <a href="https://www.linkedin.com/in/glauber-dias-gon%C3%A7alves-2ba312188/" class="icon-linkedin fs-4">
+                                                    <i class="bi bi-linkedin"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#partners-carousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#partners-carousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="customers" class="container-fluid p-5">
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <h2 class="fw-bold">Our customers</h2>
+                        <h4>Offering solutions to global companies.</h4>
+                    </div>
+                </div>
+                <div class="row g-sm-2 g-5 g-xxl-5 justify-content-center">
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3 parent">
+                        <img src="images/borderless.png" class="customer-logo" alt="Borderless" width="200">
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-3 parent">
+                        <img src="images/mundi.png" class="customer-logo" alt="MundiToken" width="200">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="contact-us" class="text-center p-3 text-light">
+            <div class="container text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 text-center">
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Inflame
+                        </h6>
+                        <p>
+                            Improving security and performance of your
+                            <span class="highlight-text">smart contracts</span>.
+                        </p>
+                    </div>
+        
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-center">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact us</h6>
+                        <div class="mb-3">
+                            <a class="link-footer" href="mailto:inflametecnologia@gmail.com">
+                                <i class="bi bi-envelope-at"></i>
+                                inflametecnologia@gmail.com
+                            </a>
+                        </div>
+                        <div class="mb-3">
+                            <a class="link-footer" href="https://www.linkedin.com/company/inflame-technology/">
+                                <i class="bi bi-linkedin"></i>
+                                Inflame Technology
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="highlight-text">
+            <div class="p-3">
+                <i class="bi bi-c-circle"></i> <span id="copyright"></span>
+            </div>
+        </footer>
+    </body>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+
+</html>

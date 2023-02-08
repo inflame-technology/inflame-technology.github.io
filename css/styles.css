@@ -1,0 +1,99 @@
+header{
+    background: url('../images/header.jpg');
+    background-size: cover;
+}
+
+body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+footer{
+    background-color: #060026;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.link-header, .link-footer{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.link-header{
+    display: block;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.link-header:hover, .link-footer:hover{
+    color: #FB5140;
+}
+
+.btn-contact{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    background-color: transparent;
+}
+
+.btn-contact:hover{
+    background-color: #FB5140;
+}
+
+.highlight-text{
+    color: #FB5140;
+}
+
+#services{
+    background-color: #F9FAFC;
+}
+
+#about-us{
+    background-color: #060026;
+}
+
+#customers{
+    background: url('../images/globe.jpg');
+    background-size: cover;
+}
+
+.card-services{
+    color: #FB5140;
+    border-color: #FB5140;
+    background-color: #060026;
+    text-align: center;
+}
+
+.card-services-header{
+    padding-bottom: 0;
+}
+
+.card-services-body{
+    padding-top: 0;
+}
+
+.card-about-us{
+    border-color: #FB5140;
+    align-items: center;
+    margin: auto;
+}
+
+.icon-linkedin{
+    color: #0A66C2;
+}
+
+.icon-linkedin:hover{
+    color: #0a66c2e3;
+}
+
+.parent{
+    display: flex;
+}
+
+.customer-logo{
+    width: 200px;
+    margin: auto; 
+}
